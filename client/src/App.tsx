@@ -9,11 +9,12 @@ import NotFound from "@/pages/not-found";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/universityvision/" component={Home} />
       <Route component={NotFound} />
     </Switch>
   );
 }
+
 
 function App() {
   return (
