@@ -37,7 +37,7 @@ var vite_config_default = defineConfig(async () => ({
     }
   },
   root: path.resolve(__dirname, "client"),
-  base: "/",
+  base: "/universityvision/",
   // 👈 IMPORTANT: change if deploying in a subfolder (e.g., "/universityvision/")
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
