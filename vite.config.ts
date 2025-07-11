@@ -24,7 +24,7 @@ export default defineConfig(async () => ({
     },
   },
   root: path.resolve(__dirname, "client"),
-  base: "/", // 👈 IMPORTANT: change if deploying in a subfolder (e.g., "/universityvision/")
+  base: "/universityvision/", // 👈 IMPORTANT: change if deploying in a subfolder (e.g., "/universityvision/")
   build: {
     outDir: path.resolve(__dirname, "dist/public"),
     emptyOutDir: true,
